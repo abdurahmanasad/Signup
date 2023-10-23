@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.App .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  width: 440px;
+}
+
+.App .content .upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.App .content .upper .titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.App .content .upper .titles h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #1f41bb;
+}
+
+.App .content .upper .titles p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  width: 320px;
+}
+
+.App .content .upper .input-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.App .content .upper .input-button .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.App .content .upper .input-button .inputs input {
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f1f4ff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #bdbfc6;
+  width: 326px;
+  height: 46px;
+}
+
+.App .content .upper .input-button .inputs input:focus {
+  outline: none;
+  border: 2px solid #1f41bb;
+}
+
+.App .content .upper .input-button .button-signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.App .content .upper .input-button .button-signin button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  background-color: #1f41bb;
+  width: 340px;
+  height: 46px;
+}
+
+.App .content .upper .input-button .button-signin p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  width: 320px;
+}
+
+.App .content .lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.App .content .lower p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  color: #1f41bb;
+  width: 320px;
+}
+
+.App .content .lower .socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.App .content .lower .socials .social-link {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px;
+  background-color: #ececec;
+  border-radius: 8px;
+}
+
+.App .content .lower .socials .social-link svg {
+  font-size: 20px;
+}
