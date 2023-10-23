@@ -73,7 +73,7 @@ li {
   gap: 12px;
 }
 
-.App .content .upper .input-button .inputs input {
+/* .App .content .upper .input-button .inputs input {
   display: flex;
   align-items: center;
   padding: 0px 8px;
@@ -91,7 +91,7 @@ li {
 .App .content .upper .input-button .inputs input:focus {
   outline: none;
   border: 2px solid #1f41bb;
-}
+} */
 
 .App .content .upper .input-button .button-signin {
   display: flex;
